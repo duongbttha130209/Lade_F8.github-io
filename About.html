@@ -31,28 +31,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
 
-<!-- CSS code for video -->
-/* Style the video: 100% width and height to cover the entire window */
-<style >
-#myVideo {
- position: sticky;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+<style>
+/*---------- About us CSS--------------*/
+h1,h2,h3,h4,h5,h6 {font-family: "Merienda One"}   /* headings other than h1 is oswald */
+
+body { 
+  font-family: Arial, Helvetica, sans-serif       /* body font */
+  .w3-bar-block .w3-bar-item {padding:20px}
 }
 
-/* Add some content at the bottom of the video/page */
-.content {
-  position: sticky;
-  bottom: 80px;
-  color: #191970;
-  width: 100%;
-  padding: 30px;
-  text-align: center;
-}
 
-h1,h2,h3,h4,h5,h6 { font-family: "Merienda One" }
+.luman {
+font-family: 'Lato', cursive;
+font-size: 30px;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif
@@ -60,92 +52,20 @@ body {
 }
 
 .lade{
-	font-family: "Merienda One", cursiver;
-	font-size: 30px;
+  font-family: "Merienda One", cursiver;
+  font-size: 30px;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px;
-  padding: 20px;
-}
-
-.about-section {
-  font-family: "Lato";
-  padding: 10px;
-  text-align: center;
-  color: #191970;
-}
-
-.container-fluid {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #0000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-</style>     
-
-<!-- Java code -->
-
-<script>
-// Get the video
-var video = document.getElementById("myVideo");
-
-</script>
-
+</style>
+<head>
+  
 <!-- Nav bar -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-	<a class="navbar-brand lade" href="index.html">Lade</a>
-	
-	<ul class="navbar-nav ml-auto">
-	    <li class="nav-item ">
-      <a class="nav-link" href="About.html">About us</a>
+  <a class="navbar-brand lade" href="index.html">Lade</a>
+  
+  <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+      <a class="nav-link" href="About.html">About me</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Gallery.html">Gallery</a>
@@ -158,321 +78,50 @@ var video = document.getElementById("myVideo");
     </li>
   </ul>
 </nav>
-  </head>
+</head>
+
+<br><br>
 
 <body>
-
-<!-- Video HTML code -->
-<!-- Video -->
-<!-- The video -->
-
-<video autoplay muted loop id="myVideo">
-  <source src="ngao/video.mp4" type="video/mp4" > <!-- Insert your video here -->
-</video>
-<br>
-
-
-<!-- Optional: some overlay text to describe the video -->
-<div class="content ">
-  <h1 class="lade">Lade is a story</h1>
-  <!-- Use a button to pause/play the video with JavaScript -->
-  <p class="about-section">"Due to this, models may not be guaranteed to get the images returned to them as it is the property of the hiring firm/individual."</p>
-<br>
-<br>
-	  <p>_____________________________</p>
-</div>
-</div>
-
-<!-- ABOUT US -->
-<br>
-<br>
-<div class="about-section">
- <img src="ngao/hoa7.jpg" style="width:100%">
- <br>
- <br>
- <br>
- <h1 class="lade">I am Regina!</h1>
- <p>A dreamer in the crazy world of herself. Passionate about household appliances but not like washing dishes :3</p>
- <p>_____________________________</p>
-</div>
-
-
-<!---_______________ Our team _____________-->
-<br><br><br>
-<br>
-<section>
-<h2 style="text-align:center">Our Team</h2> <br>
-<div class="row ml-5">
-
-<!-- card 1 -->
-<div class="col-lg-4">
- <div class="card" style="width:450px">
-  <img class="card-img-top" src="ngao/hoa.jpg" class="image-fluid" height="300" width="400">
-      <div class="container">
-      	<br>
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32">  
+    <br>
+    <br>
+       <h1 class="w3-xxxlarge w3-center"><b>About me</b></h1><br>
+    <img src="ngao/e1.jpg">
+    <div class="w3-padding-32">
+      <h3 class="w3-center"><b>I am Who I Am!</b></h3>
+      <h6 class="w3-center">With Passion For Real, Good Food</h6> <br><br><br><br>
+      <p class="w3-center ">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi <br> sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis<br> est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,<br> omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates<br>repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias<br> consequatur aut perferendis doloribus asperiores repellat. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and<br> I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder <br>of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter <br>consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself,because it is pain, but because occasionally circumstances <br>occur in which toil and pain can procure him some great pleasure.To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? <br>But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
     </div>
   </div>
 
-<!-- card 2 -->
- <div class="col-lg-4">
-<div class="card" style="width:450px">
-  <img class="card-img-top" src="ngao/hoa3.jpg" class="image-fluid" height="300" width="400">
-      <div class="container-fluid">
-      	<br>
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-10 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="ngao/e2.jpg" alt="Sandwich" style="width:100%">
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="ngao/e3.jpg" alt="Steak" style="width:100%"><br>
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="ngao/e4.jpg" alt="Cherries" style="width:100%"><br>
+      <h3>Lorem ipsum dolor sit amet</h3><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="ngao/e6.jpg" alt="Pasta and Wine" style="width:100%"><br>
+      <h3>Once Again, Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
   </div>
-
-<!-- card 3 -->
-<div class="col-lg-4">
-<div class="card" style="width:450px">
-  <img class="card-img-top" src="ngao/hoa2.jpg" class="image-fluid" height="300" width="400">
-      <div class="container-fluid">
-      	<br>
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
-<br> <p class="about-section">_________________________________</p><br>
-</div>
-
-
-</section>
-
 </body>
 
-
-<style>
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 16px 10px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-</style>
-
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-
- 	
-<br>
-<br>
-<br>
-
-<!-- Footer-->
-<section>
-<style>
-.footer {
-  position: sticky;
-  left: 0;
-  bottom: 10;
-  width: 100%;
-  background-color: #FFF5EE;
-  color: #708090;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: px;
-}
-</style>
-
-<div class="footer">
-  <p>All rights reserverd Copyright </p> <br>
-<!-- css code-->
-<style>
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 60px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 3px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-</style>
-
-<!-- html code for socia media-->
-<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-<a href="https://twitter.com/" class="fa fa-twitter"></a>
-<a href="https://www.google.com/" class="fa fa-google"></a>
-<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
-<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-<a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
-
-
-</div>
 </html>
-
-
